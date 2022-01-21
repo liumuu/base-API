@@ -1,0 +1,23 @@
+{
+  "name": "base-api",
+  "version": "1.0.0",
+  "description": "the CURD API based on eggjs & mongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liumuu/base-API.git"
+  },
+  "keywords": [
+    "eggjs",
+    "mongoDB"
+  ],
+  "author": "Liumuu",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/liumuu/base-API/issues"
+  },
+  "homepage": "https://github.com/liumuu/base-API#readme"
+}
