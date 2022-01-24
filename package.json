@@ -4,7 +4,8 @@
   "description": "the CURD API based on eggjs & mongoDB.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "dev": "egg-bin dev"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/liumuu/base-API/issues"
   },
-  "homepage": "https://github.com/liumuu/base-API#readme"
+  "homepage": "https://github.com/liumuu/base-API#readme",
+  "dependencies": {
+    "egg": "^2.33.1"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.17.0"
+  }
 }
