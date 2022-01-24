@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "dev": "egg-bin dev"
+    "dev": "egg-bin dev",
+    "start": "egg-scripts start --daemon --title=base-API",
+    "stop": "egg-scripts stop --title=base-API"
   },
   "repository": {
     "type": "git",
@@ -22,7 +24,8 @@
   },
   "homepage": "https://github.com/liumuu/base-API#readme",
   "dependencies": {
-    "egg": "^2.33.1"
+    "egg": "^2.33.1",
+    "egg-scripts": "^2.15.2"
   },
   "devDependencies": {
     "egg-bin": "^4.17.0"

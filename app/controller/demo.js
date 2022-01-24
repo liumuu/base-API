@@ -1,0 +1,11 @@
+'use strict'
+
+const Controller = require('egg').Controller
+
+class DemoController extends Controller {
+  async index() {
+    this.ctx.body = '<h1>Demo</h1>'
+  }
+}
+
+module.exports = DemoController
