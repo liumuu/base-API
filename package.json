@@ -4,10 +4,10 @@
   "description": "the CURD API based on eggjs & mongoDB.",
   "main": "index.js",
   "scripts": {
-    "test": "test",
     "dev": "egg-bin dev",
     "start": "egg-scripts start --daemon --title=base-API",
-    "stop": "egg-scripts stop --title=base-API"
+    "stop": "egg-scripts stop --title=base-API",
+    "test": "egg-bin test"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,7 @@
     "egg-scripts": "^2.15.2"
   },
   "devDependencies": {
-    "egg-bin": "^4.17.0"
+    "egg-bin": "^4.17.0",
+    "egg-mock": "^4.2.0"
   }
 }
